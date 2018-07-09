@@ -1,2 +1,12 @@
-tell = {:孫=>8122223,:ビル=>3,:オバ=>4133251}
-puts tell[:オバ]
+total_price = 100
+
+    if total_price > 100
+    	puts "みかんを購入。所持金に余りあり"
+
+    elsif total_price == 100
+    	puts "みかんを購入。所持金は0円"
+
+    else
+    	puts "みかんを購入することができません。"
+
+    end
